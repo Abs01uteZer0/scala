@@ -18,9 +18,9 @@ object lab_rab_1 extends App {
 
   // Главная программа
   val sentences = generateSentences(5) // Генерируем 5 предложений
-  println("Generated Sentences:")
+  println("Сгенерированные предложения:")
   sentences.foreach(println)
 
   val longestSentence = findLongestSentence(sentences)
-  println(s"\nSentence with the most words:\n$longestSentence")
+  println(s"\nПредложение с наибольшем количеством слов:\n$longestSentence")
 }
